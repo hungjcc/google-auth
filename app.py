@@ -8,7 +8,9 @@ import requests
 import os
 from dotenv import load_dotenv
 
-load_dotenv()
+# Prefer loading .env from the Flask instance folder for local secrets
+dotenv_path = os.path.join(os.path.dirname(__file__), 'instance', '.env')
+load_dotenv(dotenv_path)
 
 CLIENT_ID = os.getenv("CLIENT_ID")
 CLIENT_SECRET = os.getenv("CLIENT_SECRET")
