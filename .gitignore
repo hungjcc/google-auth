@@ -1,0 +1,77 @@
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+auth_env/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nose2-junit.xml
+coverage.xml
+
+# Database files
+*.db
+database.db
+*.sqlite3
+*.sqlite
+
+# Flask instance folder and environment files
+instance/
+.env
+.env.*
+
+# Auth/session tokens (if accidentally stored)
+*.token
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# PyInstaller
+*.manifest
+*.spec
+
+# C extensions
+*.so
+*.pyd
+
+# Type checkers / caches
+.mypy_cache/
+
+# Celery
+celerybeat-schedule
+
+# Misc
+*.lnk
