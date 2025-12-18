@@ -8,6 +8,7 @@ auth_env/
 venv/
 ENV/
 env/
+.env
 
 # Distribution / packaging
 build/
